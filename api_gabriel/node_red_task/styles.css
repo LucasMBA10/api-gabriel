@@ -1,66 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #1c1c1c;
     margin: 0;
-}
-
-.container {
-    background-color: #333;
-    border: 2px solid #fff;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
-    margin: 20px auto;
-}
-
-h1 {
-    color: #fff;
-    text-align: center;
-    margin-top: 0;
-}
-
-#dados-lista {
-    list-style-type: none;
     padding: 0;
-    margin-top: 0;
-}
-
-#dados-lista li {
-    border: 1px solid #fff;
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #444;
-}
-
-.add-form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.add-form label {
-    color: #fff;
-    margin-right: 10px;
-}
-
-.add-form button {
-    margin-top: 10px;
-    align-self: flex-end;
-}
-
-.add-form input[type="checkbox"] {
-    margin-left: 5px;
-}
-
-.btn {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-}
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #data-display {
+    margin-top: 20px;
+  }
+  
+  .data-item {
+    margin-bottom: 10px;
+  }
+  
+  .data-item label {
+    font-weight: bold;
+  }
+  
+  .data-item span {
+    margin-left: 10px;
+  }
