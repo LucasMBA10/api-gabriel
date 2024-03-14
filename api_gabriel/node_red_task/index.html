@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Dados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Lista de Dados</h1>
+    <ul id="dados-lista">
+        <!-- Dados serão inseridos aqui via JavaScript -->
+    </ul>
+
+    <h2>Adicionar Dado</h2>
+    <form id="add-form">
+        <label for="sensor">Sensor:</label>
+        <input type="checkbox" id="sensor" name="sensor">
+        <br>
+        <label for="botao">Botão:</label>
+        <input type="checkbox" id="botao" name="botao">
+        <br>
+        <label for="reset">Reset Contador:</label>
+        <input type="checkbox" id="reset" name="reset">
+        <br>
+        <button type="submit" class="btn">Adicionar</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
